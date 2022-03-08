@@ -7,7 +7,7 @@
 
   <h3 align="center">fridges-api</h3>
   <div align="center">
-    <a href="#"><strong>Try this server using Binder! »</strong></a>
+    <a href="https://mybinder.org/v2/gh/rzmk/fridges-api/HEAD"><strong>Try this API using Binder! »</strong></a>
     <br />
   </div>
 </div>
@@ -29,7 +29,11 @@ Built from the Backend (**Rest APIs and FLASK**) Workshop by [@lucentfong](https
 5. **Run the flask server.** You can do this by running the command `flask run`.
 6. **Run api_test.py.** Open another terminal and run `python api_test.py` (may be `python3` for unix).
 
-You should be able to see the requests run with outputs on the terminal running the server and the requests script! 🎉
+You should be able to see the requests run with outputs on both terminals! 🎉
+
+Here is a demo going through all the steps on [binder](https://mybinder.org/v2/gh/rzmk/fridges-api/HEAD):
+
+![Binder Demo](binder_demo.gif)
 
 Feel free to change values within `app.py` and `api_test.py`.
 
